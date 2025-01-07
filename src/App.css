@@ -1,0 +1,23 @@
+
+/* ELECTRIC  */
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+@media (min-width:320px) and (max-width:786px) {
+    .rev{
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width:786px) and (max-width:1024px) {
+    .rev{
+        flex-direction: column !important;
+    }
+}
+
+.model-text{
+    color: white !important;
+}
+

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"BMW";
+    src: url(./Font/BMWTypeNext-Light.20240115123151.woff2);
+    font-display: swap;
+}
+
+html,body{
+    scroll-behavior: smooth !important;
+    scrollbar-width: none;
+    font-family: "BMW"!important;
+}
