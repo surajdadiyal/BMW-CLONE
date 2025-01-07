@@ -18,10 +18,13 @@ const ConfiguratorFilterResult = lazy(() => import('../context/configurator-mode
 
 const PageTransition = lazy(() => import('../animations/PageTransition'));
 
+import ScrollToTop from '../ScrollToTop';
+
 function AppRoutes() {
     return (
         <ModelProvider>
             <Suspense fallback={<div>Loading...</div>}>
+                <ScrollToTop />
                 <Navbar />
 
                 <AnimatePresence mode='wait'>
@@ -92,7 +95,7 @@ function AppRoutes() {
                         />
                     </Routes>
                 </AnimatePresence>
-                
+
                 <Footer />
             </Suspense>
         </ModelProvider>

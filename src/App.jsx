@@ -8,7 +8,7 @@ AOS.init({
   delay: 0,
   duration: 400,
   easing: 'ease-in-out',
-  once: false,
+  once: true,
   mirror: false,
   anchorPlacement: 'top-bottom'
 })
