@@ -685,4 +685,4 @@
   from = "https://functions.netlify.com/*"
   to = "https://docs.netlify.com/functions/overview/"
   status = 301
-  force = true
+  force = true
